@@ -56,7 +56,7 @@ module.exports = {
 ```diff
 {
 -  "export": "next build && next export",
-+  "export": "next build && next export && next-image-export-optimizer"
++  "export": "next build && next-image-export-optimizer && next export"
 }
 ```
 
